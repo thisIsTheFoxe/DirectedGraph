@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension View {
-    func sizeReader(_ size: Binding<CGSize>) -> some View {
+    public func sizeReader(_ size: Binding<CGSize>) -> some View {
         SizeReader(size: size) {
             self
         }
